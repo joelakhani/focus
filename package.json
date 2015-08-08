@@ -1,0 +1,30 @@
+{
+    "name": "focus",
+    "version": "0.1.1",
+    "author": "Joe Lakhani <joe@scatterio.com>",
+    "description": "Stand-alone NodeJS framework for developing web applications",
+    "contributors": [
+        {
+            "name": "Joe Lakhani",
+            "email": "joe@scatterio.com"
+        }
+    ],
+    "main": "./index.js",
+    "keywords": [
+        "focus",
+        "framework",
+        "web",
+        "rest",
+        "dropin",
+        "router"
+    ],
+    "repository": {
+        "url": "https://github.com/joelakhani/focus",
+        "type": "git"
+    },
+    "engines": {
+        "node": ">=0.10.1"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}

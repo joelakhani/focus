@@ -1,0 +1,7 @@
+*~
+*.swp
+.DS_Store
+._.DS_Store
+src/build
+src/.lock-wscript
+build
