@@ -1,7 +1,5 @@
 var util = require('util');
 
-//[ ] - add expiry to seesion_redis after .set().
-
 var _renderWithContent = function(content, plugins) {
     var web = plugins.web;
     var script = plugins.script;
@@ -65,7 +63,7 @@ module.exports.upload = function(plugins) {
         content += '<input type="file" name="file2"><br> <input type="submit" name="submit" value="Upload"> <input type="hidden" name="test" value="value"></form><BR><BR>';
         if (web.method == "post") {
             content += '<pre>File Data:<BR>';
-            content += JSON.stringify(web.getForm('files'), null, "    "); //test getQuery to see what it return when asked for 'files'
+            content += JSON.stringify(web.getForm('files'), null, "    ");
             content += '</pre>';
         }
         content += '</div>';
